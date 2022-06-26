@@ -1,0 +1,17 @@
+{
+  "name": "glsl_template",
+  "version": "1.0.0",
+  "description": "Simple starter template for sketching GLSL projects",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx parcel src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/config-default": "^2.6.2",
+    "@parcel/transformer-glsl": "^2.6.2",
+    "parcel": "^2.6.2",
+    "three": "^0.141.0"
+  }
+}
